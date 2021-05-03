@@ -1,0 +1,354 @@
+
+/* 音乐MP3 www.yymp3.com */
+
+
+
+#board2, #board3, #board4{margin:8px auto 0 auto; color:#333333;}
+.content, .songlist1, .songlist2, .songlist3, .songlist4, .songlist5{background:#F6F9FE;}
+
+/*board1*/
+#board1 .left{width:760px; float:left; margin:0 0 0 0; display:block; overflow:hidden;}
+.Albumrec{margin:0 0 0 0; display:block; width:760px;}
+.box_1{border:1px #399ED6 solid;}
+.Albumrec .box_1{border-bottom:none; border-top:none;}
+.hm_list{height:25px; *+height:26px; _height:25px; line-height:24px; vertical-align:bottom;}
+.hm_list li{float:right; background:url(../img/hm_bg03.gif) repeat-x bottom; border-left:1px #38A1D9 solid; border-bottom:1px #38A1D9 solid; border-top:1px #38A1D9 solid; padding:0px 15px 0 15px; font-size:14px; cursor:pointer; cursor:hand; color:#1978AD; letter-spacing:0.05em;}
+.hm_list li.on_line{background:url(../img/hm_bg02.gif) repeat-x 0 -10px; border-bottom:none; float:right; line-height:25px;}
+.hm_list li.newAlbum{background:url(../img/hm_bg02.gif) repeat-x 0 -8px; float:left; border-left:none; border-right:1px #38A1D9 solid; border-left:1px #38A1D9 solid; border-top:1px #38A1D9 solid; border-bottom:none; font-weight:bold; line-height:25px;}
+.hm_list li.blank{width:271px; *width:271px; border-left:none; border-top:none; border-bottom:1px #38A1D9 solid; background:none; display:block; cursor:auto; letter-spacing:normal; color:#333; line-height:25px; text-align:center;}
+.hm_list li.blank a{font-size:14px; color:#333;}
+.hm_list li.blank a:hover{color:#1978AD;}
+.more{border-right:1px #38A1D9 solid;}
+.more a{font-size:14px; color:#1978AD;}
+.more a:hover{color:#1978AD; text-decoration:none;}
+.Albumrec .content{padding:7px 10px 15px 10px; _padding:7px 10px 15px 0px; background:#ffffff url(../img/li_bg06.gif) bottom repeat-x;}
+dl{width:110px; text-align:center; float:left; margin:10px 5px 0 8px; *+margin:10px 5px 0 8px; _margin:10px 5px 0 7px;}
+dl dd{width:106px; line-height:14px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+dl dd img{width:100px; height:100px; border:1px #666 solid; padding:2px; margin:0 0 1px 0;}
+dl dt{width:122px; *width:122px; line-height:16px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; height:15px; text-align:center; margin-top:2px;}
+
+
+.songrec{width:375px; float:left; display:block; height:100%; margin:10px 5px 0 0;}
+.t1_1{position:relative; height:24px; line-height:24px; background:url(../img/li_bg04.gif) repeat-x;}
+.t1_l1,.t1_r1{position:absolute;}
+.t1_l1{background:url(../img/li_bg03.gif) repeat-x; padding:0 0 0 7px; left:1px; top:0px; height:24px;}
+.t1_l1 a{color:#fff; font-size:14px; letter-spacing:1px;}
+.t1_l1 a:hover{color:#fff; text-decoration:none;}
+.neiqian{background:url(../img/hm_bg01.gif) no-repeat right top; padding:0 24px 0 0;color:#fff; font-size:14px;}
+
+
+
+.t1_r1{position:absolute; right:8px; top:1px; *top:3px; font-size:12px; font-weight:normal;}
+.t1_r1 a{text-decoration:none; color:#1978AD;}
+.t1_r1 a:hover{color:#1C89C4;}
+
+
+.songlist1{padding:5px 0 4px 8px; _padding:5px 0 4px 4px; height:100%;}
+.songlist1 li{width:175px; _width:170px; margin-right:5px; height:29px; line-height:29px; float:left; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; vertical-align:middle;}
+.songlist1 li a{margin:0 5px 0 0;}
+.songlist1 li a:hover{color:#1C89C4; text-decoration:underline;}
+.li_l1, .li_r1{float:left; overflow:hidden; display:block; white-space:nowrap; text-overflow:ellipsis;}
+.li_l1{padding:7px 5px 0 0; *padding:0; *+margin:4px 5px 0 0; _margin:2px 5px 0 0;}
+.li_r1{width:145px; margin:0 5px 0 0; _margin:0 0 0 0;}
+.li_r1 a{overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.caidan{ background:url(../img/li_bg05.gif) repeat-x; height:28px; line-height:28px; text-align:center;}
+.caidan div{width:240px; padding:2px 0 0 0; *padding:0; margin:5px auto 0px auto; *+margin:1px auto; _margin:5px auto 0 auto;}
+
+.songran{width:380px; float:left; display:block; height:100%; margin:10px 0 0 0;}
+.songran .songlist1{padding:5px 0 4px 8px;}
+.songran .songlist1 li{float:left; width:180px; _width:175px;}
+.songran .songlist1 li a{margin:0 0 0 0;}
+.songran .li_r1{width:150px;}
+
+#board1 .right{width:195px; float:left; margin:0 0 0 5px;}
+.player{margin:0 0 10px 0;}
+.box_2{border:1px #909090 solid;}
+/*focus 4F*/
+.SlideMainRoll{filter:progid:DXImageTransform.Microsoft.Slide(slidestyle=SWAP,Bands=1); cursor:pointer;}
+#SlideMain{overflow:hidden; width:185px; height:310px; display:block; overflow:hidden; border:solid 1px #909090; padding:4px;}
+#SlideMenu{left:3px; bottom:55px; width:185px; position:relative; height:60px;}
+#SlideMenu ul {padding:0px; margin:0px; list-style::none;}
+#SlideMenu ul li{background:none transparent scroll repeat 0% 0%; float:left; margin:0 1px; overflow:hidden; width:42px; height:50px;}
+#SlideMenu ul li img{border-right:#989898 1px solid; border-top:#C0C0C0 1px solid; overflow:hidden; border-left:#C0C0C0 1px solid;width:42px; border-bottom:#989898 1px solid; height:50px;}
+.SlideMenuOver{filter:alpha(opacity=100); -moz-opacity:1;}
+.SlideMenuOut{filter:alpha(opacity=40); -moz-opacity:0.4;}
+
+.hr_1{position:relative; height:26px; line-height:26px; background:#ffffff url(../img/li_bg07.gif) repeat-x bottom;}
+.hr_l1{height:26px; position:absolute; padding:0 0 0 7px; left:0; top:0;}
+.hr_r1{position:absolute; right:8px; top:0px; font-weight:normal;}
+.hr_r1 a{display:block; color:#1978AD;}
+.hr_r1 a:hover{color:#f60;}
+
+.songlist2{padding:8px 0 9px 5px; *padding:7px 0 3px 5px;}
+.songlist2 li{width:185px; height:29px; display:block; line-height:26px; padding-left:3px;}
+.songlist2 li a:hover{}
+.lie1, .lie2, .lie3, .lie4, .lie5, .lie6, .lie7, .lie8, .lie9, .lie10, .lie11, .lie12, .lie13, .lie14, .lie15{
+width:138px; height:28px; float:left; display:block; vertical-align:middle; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; padding:0 0 0 18px;}
+.lie1 a, .lie2 a, .lie3 a, .lie4 a, .lie5 a, .lie6 a, .lie7 a, .lie8 a, .lie9 a, .lie10 a, .lie11 a, .lie12 a, .lie13 a, .lie14 a, .lie15 a{display:block; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;} 
+.lie1{ background:url(../img/mb/a01.gif) no-repeat 0 6px;}
+.lie2{ background:url(../img/mb/a02.gif) no-repeat 0 6px;}
+.lie3{ background:url(../img/mb/a03.gif) no-repeat 0 6px;}
+.lie4{ background:url(../img/mb/a04.gif) no-repeat 0 6px;}
+.lie5{ background:url(../img/mb/a05.gif) no-repeat 0 6px;}
+.lie6{ background:url(../img/mb/a06.gif) no-repeat 0 6px;}
+.lie7{ background:url(../img/mb/a07.gif) no-repeat 0 6px;}
+.lie8{ background:url(../img/mb/a08.gif) no-repeat 0 6px;}
+.lie9{ background:url(../img/mb/a09.gif) no-repeat 0 6px;}
+.lie10{background:url(../img/mb/a10.gif) no-repeat 0 6px;}
+.lie11{background:url(../img/mb/a11.gif) no-repeat 0 6px;}
+.lie12{background:url(../img/mb/a12.gif) no-repeat 0 6px;}
+.lie13{background:url(../img/mb/a13.gif) no-repeat 0 6px;}
+.lie14{background:url(../img/mb/a14.gif) no-repeat 0 6px;}
+.lie15{background:url(../img/mb/a15.gif) no-repeat 0 6px;}
+.Slist2_m1, .Slist2_r1{float:left;}
+.Slist2_m1{width:6px; display:block; padding:10px 0 0 0;}
+.Slist2_r1{width:18px; color:#a4a4a4; text-align:center; line-height:24px;}
+
+
+
+/*board2*/
+#board2 .HTrec{width:250px; float:left; display:block;}
+#board2 .JSKrec{width:250px;float:left;  margin:0 0 0 5px; display:block;}
+#board2 .EUrec{width:250px; float:left; margin:0 0 0 5px; display:block;}
+#board2 .Mlrec{width:195px; float:left; margin:0 0 0 5px; display:block;}
+
+.songlist3{padding:5px 0 1px 8px; *padding:5px 0 4px 4px;}
+.songlist3 li{height:28px; line-height:28px; vertical-align:middle; display:block; overflow:hidden;}
+.songlist3 li a:hover{color:#1C89C4; text-decoration:underline;}
+.li_l, .li_m, .li_r{float:left; display:block; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.songlist3 li .li_l{padding:7px 5px 0 0; *padding:0; *+margin:4px 5px 0 0; _margin:2px 5px 0 0;}
+.songlist3 li .li_m{width:145px; *width:141px; margin:0 5px 0 0; display:block; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.songlist3 li .li_m a{overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.songlist3 li .li_r{width:60px; text-align:right;}
+.songlist3 li .li_r a{overflow:hidden; white-space:nowrap; text-overflow:ellipsis; color:#1978AD;}
+.Mlrec .songlist3 .li_m{width:91px; *width:89px;}
+.Mlrec .caidan div{width:185px;}
+.Mlrec .bo{width:38px;}
+
+/*board3*/
+.Classic{width:250px; float:left; display:block;}
+.Popular, .Topalbums{width:250px; float:left; display:block; margin:0 0 0 5px;}
+.Horicolumn{width:195px; float:left; margin:0 0 0 5px; display:block;}
+.t1_2{position:relative; height:27px; line-height:27px; background:url(../img/li_bg06.gif) repeat-x bottom; padding:2px 0 0 8px;}
+.t1_l2{position:absolute; left:8px; top:1px; *top:3px; font-size:14px; font-weight:bold; color:#1978AD; letter-spacing:0.1em;}
+.t1_r2{position:absolute; right:8px; top:1px; *top:3px; font-size:12px; font-weight:normal;}
+.t1_r2 a{text-decoration:none; color:#1978AD;}
+.t1_r2 a:hover{color:#1C89C4;}
+
+
+.Classic .songlist3{padding:5px 0 0px 8px; _padding:5px 0 0px 4px;}
+.songlist4{padding:10px 0px 14px 13px; _padding:10px 0px 14px 2px; text-align:center;}
+.songlist4 li{width:65px; height:24px; float:left; margin:0 10px 5px 0; _margin:0 5px 5px 5px; line-height:24px; vertical-align:middle; border:solid 1px #dddddd; background:#EFF8FC; text-align:center;}
+.songlist4 li a{color:#1978AD;}
+.songlist4 li a:hover{color:#1C89C4; text-decoration:underline;}
+
+.albumlist{padding:5px 0 11px 8px; *padding:5px 0 6px 8px;}
+.albumlist li{width:210px; height:26px; line-height:26px; display:block; overflow:hidden; vertical-align:middle; list-style:disc inside; color:#1978AD;}
+.albumlist li a:hover{color:#1C89C4;}
+.artist{width:60px; float:left; text-align:right; display:block; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.artist a{color:#1978AD;}
+.albume{width:145px; float:left; display:block; margin:0 5px 0 0; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+
+.Horicolumn .hr_1{position:relative; height:27px; line-height:27px; background:#ffffff url(../img/li_bg07.gif) repeat-x bottom; padding:0 0 0 8px;}
+.Horicolumn .hr_l1{font-size:14px; color:#333; letter-spacing:0.1em;}
+.songlist5{padding:9px 0 5px 0; *padding:10px 0px 11px 0px; text-align:center;}
+.songlist5 li{width:175px; height:28px; margin:0 auto 6px auto; *margin:0 auto 6px auto; line-height:28px; vertical-align:middle; border:solid 1px #DDD; background:#EFF8FC; text-align:center; font-weight:200; font-size:14px;}
+.songlist5 li a{color:#1978AD;}
+.songlist5 li a:hover{color:#1C89C4; text-decoration:underline;}
+
+/*border4*/
+.linkvess{margin:10px auto;}
+.linklist{text-align:left;}
+.linklist a{margin:0 3px;}
+.linklist img{border:none;}
+
+
+
+
+
+
+/* 音乐MP3 golbal.css  */
+
+*{margin:0; padding:0}
+html{border:0;}
+body,div,p,th,td,li,dd,a,span{font-size:12px; font-family:Verdana,"宋体"; white-space:normal;}
+body{background:#E5E5E5;}
+h1,h2,h3,h4,h5,h6{ font-size:14px; color:#333;}
+ul{list-style:none;}
+a img{border:0;}
+p{line-height:160%}
+a{text-decoration:none;}
+a:hover{ text-decoration:underline;}
+a.style1{}
+a.style1:hover{}
+.f_l{float:left;}
+.f_r{float:right;}
+.c{height:1%;}
+.c:after {content: "."; display: block; height:0; clear: both; visibility:hidden;}
+.ell{overflow:hidden; white-space:nowrap; text-overflow:clip;}
+.h{height:100%;}
+.dn{display:none;}
+.ac{text-align:center;}
+.al{text-align:left;}
+.ar{text-align:right;}
+.ch{cursor:pointer; cursor:hand;}
+.f_v{ font-family:Verdana;}
+.vess{width:980px; margin:0 auto; background:#ffffff; border-left:solid 1px #ADADAD; border-right:solid 1px #ADADAD; }
+.clear{clear:both; height:0; visibility:hidden; overflow:hidden; display:block;}
+
+
+
+
+
+/* 音乐MP3 module.css  */
+
+/*头尾*/
+#header{height:100%; margin:0 auto; display:block; overflow:hidden; padding:0 0px;}
+#shop{width:980px; margin:0 auto; background:url(../img/header/bg02.gif) repeat-x;}
+#shop_box{width:960px; margin:0 auto;}
+#login_zu{ width:170px; height:26px; background:url(../img/header/bg05.gif) repeat-x; position:relative; float:left;}
+.login_l,.login_r{ height:26px; position:absolute;}
+.login_l{ background:url(../img/header/bg03.gif) no-repeat; padding:7px 0 0 25px; left:0; top:0;}
+.login_r{ background:url(../img/header/bg04.gif) no-repeat right top; padding:7px 28px 0 0; right:0; top:0;}
+#fen{ background:url(../img/header/bg06.gif); width:2px; height:19px; position:absolute; left:80px; top:2px;}
+#hot{ width:24px; height:11px; position:absolute; right:10px; top:20px; background:url(../img/header/hot.gif) no-repeat;}
+#logo{ width:188px; height:53px; background:url(../img/header/logo.jpg); float:left; margin:15px 0 0 5px;}
+#logo2{ width:188px; height:53px;}
+#logo a{ width:188px; height:53px; display:block;}
+#search_box{float:left; width:325px; margin:20px 0 0 0; text-align:center; display:block; overflow:hidden;}
+#chick_box{font-size:13px; padding:0 0 0 45px; text-align:left;}
+.radis{margin:0 5px 0 0; *margin:0;}
+#search{margin:3px 0 5px 0; vertical-align:bottom;}
+#Rechead{margin:0 0 0 0px; padding:10px 0 0 0; *padding:15px 0 0 0; float:right; width:195px;}
+#Rechead ul{display:inline-block;}
+#Rechead li{width:85px; float:left; height:18px; line-height:18px; color:#1f89C4; background:url(../img/header/list.gif) no-repeat 0 50%; padding:0 0 0 8px; margin:0 2px 0 0; display:inline; overflow:hidden;}
+#Rechead li a{color:#4a4a4a;}
+#Rechead li a:hover{color:#0080C6;}
+#Rechead img{border:none;}
+
+#nav_box{width:958px; height:30px; position:relative; background:url(../img/header/nav_m.gif) repeat-x; margin:5px auto 0 auto; line-height:30px; overflow:hidden; display:block; text-align:center; border-left:solid 1px #399ED6; border-right:solid 1px #399ED6;}
+#nav{width:958px; margin:0 auto; padding:0 0 0 12px;}
+#nav li{float:left;}
+#nav li a{ color:#fff; font-size:12px; font-weight:bold; font-family:Tahoma; background:none; float:left; width:76px; height:30px; display:block; text-decoration:none; text-align:center; *line-height:30px; _line-height:26px;}
+#nav li a:hover{background:url(../img/header/nav_m2.gif) repeat-x; text-decoration:none;}
+.line{ width:2px; height:30px; background:url(../img/header/bg07.gif) no-repeat;}
+
+#login, #login_box, .mima, #ad_txt{float:left; line-height:29px; _line-height:28px; vertical-align:middle; margin:0px 0 0px 0px;}
+#login, #login_box{_padding:3px 0 0 0; _margin:0 0 0 0;}
+#login{margin:0 0 0 12px; _margin:0 0 0 6px;}
+#login label{margin:0 0 0 5px;}
+.mima{padding:0 0 0 12px; _padding:3px 0 0 12px;}
+#ad_txt{padding:0 0 0 12px; _padding:3px 0 0 20px;}
+#ad_txt a{margin:0 5px; text-decoration:underline;}
+#menu_box{ background:url(../img/header/bg01.gif) repeat-x;  line-height:27px; padding:0 0 0 10px; text-align:center;}
+#menu_box a{ margin:0 7px;}
+#menu_box a{ color:#18459C; font-size:14px; font-weight:bold;}
+#menu_box a:hover{ color:#f00;}
+#zu_box{width:958px; margin:0 auto; height:28px; border-bottom:1px #9C9A9C solid; border-left:1px #9C9A9C solid; border-right:1px #9C9A9C solid; vertical-align:middle; display:block; overflow:hidden;}
+#zu_box .c{width:958px; margin:0 auto; overflow:hidden; display:none; clear:both; height:1%;}
+
+
+#footer{background:url(../img/header/fotbg.gif) repeat-x;  padding:15px 0 10px 0;}
+.zu_box_l{ background:url(../img/header/logo2.jpg) no-repeat; width:155px; height:51px; float:left; margin:5px 15px 0 20px; _margin:5px 15px 0 10px;}
+.zu_box_l a{ width:155px; height:51px; display:block; margin:0 !important;}
+.zu_box_r{  float:left; line-height:18px;}
+#footer .c{ width:970px; margin:0 auto;}
+#footer a{ color:#666; padding:0 8px 0 0;}
+#footer a:hover{ color:#f50;}
+#music #yy a,#game #yx a,#news #ww a,#mtv #tv a,#star #xz a,#dj #wq a,#rank #ph a{ color:#ff0; background:url(../img/header/nav_m2.gif) repeat-x;}
+
+/*浮动层*/
+.fu_box{ border:1px #428ECE solid; background:#C6DFEF; padding:3px; width:450px;}
+.fu_content{ background:#fff; padding:1px 1px 5px 1px;}
+.bt{ background:#2A9BD7; line-height:25px; padding:0 0 0 10px; color:#fff; font-size:14px; font-weight:bold;}
+.sleck_box{ float:left; padding:0 0 0 5px;}
+.fs_box{ float:right; padding:0 5px 0 0; width:160px;}
+.next1{ background:url(../img/mb/01.gif) no-repeat 0 45%; padding:0 0 0 30px; line-height:25px;}
+.next2{ background:url(../img/mb/02.gif) no-repeat 0 45%; padding:0 0 0 30px; line-height:25px;}
+.next3{ background:url(../img/mb/03.gif) no-repeat 0 45%; padding:0 0 0 30px; line-height:25px;}
+.input_x{ margin:3px 0;}
+.input_tr2{ font-size:12px; padding:2px 0 0 2px; font-family:Verdana; border:1px #617993 solid; color:#26409F; line-height:16px; width:205px;}
+.input_t3{ color:#26409F; width:156px !important;}
+#sc{ width:80px; margin:20px 0 0 30px;}
+.sc{ background:url(../img/but/bg03.gif); width:80px; height:21px; border:none;}
+
+.fanye{margin: 6px 5px 0 60px;}
+.fanye li{float: left;border: 1px #666688 solid; margin:3px 2px 0 0;> margin:0 2px 0 0;text-align: center;line-height: 20px;}
+.fanye li a{ background: #E0E3EF;color: #000;display: block;padding: 0 5px 0 5px !important;text-decoration:none !important;}
+.fanye li a:hover{text-decoration: none;background: #fff;color: #000;}
+.fanye ul{background: none !important;}
+.on_line_n1{padding: 0 5px 0 5px; line-height: 20px !important; font-weight: bold; color: #f60;}
+.co_n1{padding: 0 5px; color: #f50;}
+
+#looppage{line-height:24px; height:25px; float:right; margin-top:0px;}
+#loop{float:left; margin-left:5px; text-align:center; border:1px #389DD3 solid; height:22px; line-height:22px;}
+#loop a{ text-decoration:none; background:#F9FCFE; line-height:22px; color:#333333; display:block; padding:0px 6px 0px 6px; font-family:Arial; font-size:12px;}
+#loop a:hover{ background-color:#0099FF; color:#ffffff;}
+#loop .webd{ font-family:Webdings;}
+.w{width:50px;}
+.w1{width:20px; color:#FF0000; background-color:#cccccc;}
+
+
+
+
+/* 音乐MP3 forms.css  */
+
+/*头部*/
+.input_t1,.input_t2,.input_t3,.input_t_mb1,.input_t_mb2,.input_t_mb3,.input_t_mb4,.input_t_mb5{ font-size:12px; padding:2px 0 0 2px; *padding:0 0 0 2px; font-family:Verdana; border:1px #618193 solid; background:url(../img/but/bg01.gif) repeat-x; height:16px; *height:18px; line-height:18px; width:200px;}
+.input_t2{ width:100px;}
+.input_t3{ width:136px;}
+.sousuo,.sousuo_mb1{ font-size:14px; font-weight:bold; color:#2565A0; padding:0 0 5px 0; *padding:1px 0 0 0; width:60px; height:20px; background:url(../img/but/bg07.gif); border:1px #617993 solid; margin:0 0 0 10px;}
+.sousuo_mb2{  width:45px; height:20px; border:none; background:url(../img/but/bg14.gif); padding:3px 0 0 0; margin:0 0 0 10px; font-size:12px;}
+.bo{ font-size:12px; color:#2565A0; padding:2px 0 0 0; width:60px; height:20px; border:1px #617993 solid; margin:0 0 0 10px; background:url(../img/but/bg08.gif);}
+.bo1{ width:41px; height:24px; border:none; background:url(../img/but/bg09.gif); font-size:12px; color:#fff; padding:2px 0 0 0;}
+*+html .input_t1{ margin:0;}
+* > .input_t1,.input_t_mb1{ margin:0 0 3px 0;}
+.dl,.zc{ width:45px; height:20px; border:none;}
+.dl{ background:url(../img/but/dl.gif); margin:1px 0 0 10px;}
+.zc{ background:url(../img/but/zc.gif); margin:1px 0 0 5px;}
+.input_x{font-size:12px; padding:0 0 0 2px; font-family:Verdana; border:1px #617993 solid;}
+
+.button1,.button1a{ font-size:12px; padding:2px 0 0 0; width:60px;}
+.button1{ border:1px #8EC270 solid; background:url(../img/but/bg05.gif) repeat-x; margin:0 0 0 30px;}
+.button1a{ border:1px #55B1D8 solid; background:url(../img/but/bg04.gif) repeat-x; margin:0 0 0 10px;}
+.tj,.tj_mb1{ width:77px; height:29px; background:url(../img/but/bg06.gif); border:none; font-size:12px; font-weight:bold;}
+.input_tr1,.input_tr_mb1,.input_tr_mb2,.input_tr_mb3{ font-size:12px; padding:2px 0 0 2px; font-family:Verdana; border:1px #617993 solid;}
+.fbpl,.mfzc{ width:73px; height:27px; border:none; font-size:14px; padding:2px 0 0 0; margin:0 6px 0 0;}
+.fbpl{ background:url(../img/but/fbpl.gif);}
+.mfzc{ background:url(../img/but/mfzc.gif);}
+.hy,.cl,.sou{ width:100px; height:25px; border:none; font-size:12px; padding:4px 0 0 15px; margin:6px 8px 0 0;}
+.hy{ background:url(../img/but/bg10.gif);}
+.cl{ background:url(../img/but/bg11.gif);}
+.sou{ background:url(../img/but/bg12.gif);}
+.but1{ background:url(../img/but/bg13.gif); width:67px; height:27px; border:none; font-size:12px;}
+
+
+
+
+
+
+
+
+
+
+/* 音乐MP3 base.css */
+
+a{ color:#000; text-decoration:none;}
+a:hover{color:#f50; text-decoration:underline;}
+
+.left,.mid{float:left;}
+.right{float:right;}
+#main{height:100%; width:960px; margin:10px auto; display:block; overflow:hidden;}
+
+
+.AD960{width:960px; height:100%; margin:8px auto 0 auto; display:block; overflow:hidden;}
+.AD760{width:760px; height:100%; float:left; margin:10px 0 0 0; display:block; overflow:hidden;}
+.AD180{width:180px; height:100%; margin:0px auto 0 auto; display:block; overflow:hidden;}
+
+
+.game960{width:958px; height:100%; border:solid 1px #ADADAD; margin:8px auto 0 auto; display:block; overflow:hidden;}
+.gamelist{padding:10px 0px 14px 13px; _padding:10px 0px 14px 2px; text-align:center;}
+.gamelist li{ height:24px; float:left; width:54px; padding:0px 3px 0px 3px; margin:0 10px 5px 0; _margin:0 3px 3px 3px; line-height:24px; vertical-align:middle; border:solid 1px #dddddd; background:#EFF8FC; text-align:center;	*display: inline;
+	zoom: 1;vertical-align:  middle;}
+.gamelist li a{color:#1978AD;}
+.gamelist li a:hover{color:#1C89C4; text-decoration:underline;}

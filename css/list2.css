@@ -1,0 +1,44 @@
+
+/* 音乐MP3 www.yymp3.com  */
+
+/*歌曲分类*/
+
+@import url(base.css);
+
+.red{color:#f00;}
+.M_left{width:195px; float:left; margin:0 5px 0 0;}
+.M_right{width:760px; float:left;}
+
+#board{margin:8px 0 0 0;}
+.T_vess{background:#FAFAFA; line-height:26px; padding:0 15px; border:solid 1px #ADADAD;}
+.N_tree{}
+.N_tree a{color:#666; margin:0 5px;}
+.N_tree a:hover{color:#666;}
+.N_tree span{color:#1C89C4; margin:0 5px;}
+
+.box1{border:1px #9FB8C5 solid; padding:1px 1px 0 1px; margin:0 0 8px 0;}
+.h1_sortL{background:#EBF0F3; height:30px; line-height:30px; padding:0 0 0 12px; color:#333;}
+.Sort_list{padding:5px 10px 25px 10px;}
+.Sort_list li{height:26px; line-height:28px; background:url(../img/mb/icon1.gif) no-repeat 0 52%; padding:2px 0 0 10px; border-bottom:1px #d0d0d0 dashed; letter-spacing:1px; overflow:hidden; display:block;}
+.Sort_list li a{font-size:13px; color:#555;}
+.Sort_list li a:hover{color:#FF7E00; text-decoration:none;}
+.on a{font-weight:bold;}
+
+
+.box2{border:1px #d0d0d0 solid;}
+.h1_sortR{background:url(../img/top/01.gif) repeat-x bottom; height:30px; display:block; overflow:hidden; line-height:30px; color:#4070BF; padding:0 0 0 15px; letter-spacing:0.1em;}
+.content{background:#FAFAFA;}
+.list_sort{padding:5px 5px 15px 15px; *padding:5x 5px 20px 15px;}
+.list_sort li{width:246px; height:30px; display:block; overflow:hidden; float:left; line-height:28px; border-bottom:1px #D9D9D9 solid;}
+.list_sort li a{color:#555;}
+.list_sort li a:hover{color:#1E95D4;}
+.li_l, .li_m{float:left;}
+.li_l{padding:13px 0 0 0; *padding:8px 0 0 0;}
+.li_m{width:210px; margin:0 0 0 5px; *margin:0 5px 0 3px; padding:5px 0 0 0; display:block; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.li_m a{overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.kong{height:32px;}
+.caidan{background:#EBF0F3; height:36px;}
+.caidan div{width:180px; margin:6px auto 0 auto; padding:7px 0 0 0; *padding:0;}
+.bo1{margin:0 5px;}
+
+

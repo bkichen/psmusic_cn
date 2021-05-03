@@ -1,0 +1,314 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Lb #r .h P.c SELECT {
+	display:none;
+
+}
+#Lb #r .h P.c .selectbox {
+	BACKGROUND: url(i/actbox-ico.gif) no-repeat 63px 8px;
+	PADDING: 1px 0 0 7px;
+	PADDING: 4px 0 0 7px\9;
+	_padding: 3px 0 0 7px;
+	HEIGHT: 17px;
+	_height:13px;
+	WIDTH: 64px;
+	DISPLAY: block; COLOR: #033568; CURSOR: pointer;
+	border:0;
+}
+.selectbox-wrapper {
+	LEFT: -2px;
+	WIDTH: 80px;
+}
+.selectbox-wrapper UL LI {
+	LINE-HEIGHT: 24px; WIDTH: 80px; CURSOR: pointer
+}
+
+
+/*下拉开始*/
+#Lb .l .x .select * {
+	margin: 0;
+	padding: 0;
+}
+#Lb .l .x .select {
+	border:1px solid #cdcdcd;
+	float: left;
+	display: inline;
+}
+#Lb .l .x .select div {
+	border:1px solid #f9f9f9;
+	float: left;
+}
+/* 子选择器，在FF等非IE浏览器中识别 */
+#Lb .l .x .select>div {
+	width:36px;
+	height: 17px;
+	overflow:hidden;
+}
+ 
+/* 通配选择符，只在IE浏览器中识别 */
+* html #Lb .l .x .select div select {
+	display:block;
+	float: left;
+	margin: -2px;
+}
+#Lb .l .x .select div>select {
+	display:block;
+	width:40px;
+	float:none;
+	margin: -2px;
+	padding: 0px;
+}
+#Lb .l .x .select:hover {
+	border:1px solid #666666; //鼠标移上的效果 
+}
+#Lb .l .x .select select>option {
+	text-indent: 2px; //option在FF等非IE浏览器缩进2px
+}
+/*下拉结束*/
+
+
+
+
+
+#lefttop {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+
+
+#footer #bdshare {
+	FLOAT: right
+}
+#footer #ckepop {
+	FLOAT: right
+}
+
+
+
+
+#main #geci {
+	MARGIN-BOTTOM: 20px
+}
+#main #lrc {
+	MARGIN-BOTTOM: 20px
+}
+.oldPlayer * {
+	PADDING:0px;
+	MARGIN:0px;
+}
+* {
+	OUTLINE-STYLE: none
+}
+.oldPlayer UL {
+	LIST-STYLE-TYPE: none
+}
+.oldPlayer LI {
+	LIST-STYLE-TYPE: none
+}
+.jp-jplayer {
+
+}
+.jp-no-solution {
+	font-size:20px;
+	text-align:center;
+	line-height:40px;
+	BORDER-BOTTOM: #4382bf 2px solid; POSITION: absolute; BORDER-LEFT: #4382bf 2px solid; PADDING-BOTTOM: 25px; BACKGROUND-COLOR: #EFEFEF; PADDING-LEFT: 8px; WIDTH: 500px; PADDING-RIGHT: 8px; DISPLAY: none; COLOR: #f00; MARGIN-LEFT: -480px; BORDER-TOP: #4382bf 2px solid; TOP: 240px; BORDER-RIGHT: #4382bf 2px solid; PADDING-TOP: 25px; LEFT: 50%
+}
+.jp-no-solution SPAN {
+	color:#f00;
+	TEXT-ALIGN: center; DISPLAY: block; FONT-SIZE: 1em; FONT-WEIGHT: bold
+}
+.jp-no-solution A:link,.jp-no-solution A:visited {
+	text-decoration:underline;
+	FONT-SIZE: 14px
+}
+.jp-no-solution b {
+	color:#000;
+	TEXT-ALIGN: right; DISPLAY: block; FONT-SIZE: 12px;
+	padding-right:100px;
+}
+.oldPlayer {
+	BORDER-BOTTOM: #e6e8eb 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 10px; WIDTH: 285px; PADDING-RIGHT: 10px; BACKGROUND: url(img/Player.png) #f3f3f3 repeat-x 0px 0px; HEIGHT: 79px; PADDING-TOP: 0px
+}
+.oldPlayer .playerMain-01 {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; ZOOM: 1; HEIGHT: 18px; FONT-SIZE: 12px; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.oldPlayer .playerMain-01 P {
+	LINE-HEIGHT: 18px; WIDTH: 200px; FLOAT: left; HEIGHT: 18px; OVERFLOW: hidden
+}
+.oldPlayer .playerMain-01 P SPAN {
+	COLOR: #777
+}
+.oldPlayer .playerMain-01 .jp-time-holder {
+	TEXT-ALIGN: right; LINE-HEIGHT: 18px; WIDTH: 80px; ZOOM: 1; FLOAT: right; HEIGHT: 18px; COLOR: #999; OVERFLOW: hidden
+}
+.jp-current-time {
+	DISPLAY: inline; FONT-SIZE: 11px
+}
+.jp-duration {
+	DISPLAY: inline; FONT-SIZE: 11px
+}
+
+.jp-progress {
+	POSITION: relative;
+	CURSOR: pointer;
+	BACKGROUND: url(img/Player.png) repeat-x 0px -105px;
+}
+#jp_container_1 {
+	-moz-user-select:none;
+}
+.jp-audio DIV.jp-progress {
+	WIDTH: 285px; HEIGHT: 8px;
+}
+.jp-video DIV.jp-progress {
+	WIDTH: 100%; HEIGHT: 10px; TOP: 0px; LEFT: 0px;
+}
+.jp-seek-bar {
+	CURSOR: pointer;
+	Z-INDEX: 0; POSITION: absolute;
+	WIDTH: 0px; BACKGROUND: url(img/Player.png) repeat-x 0px -96px; HEIGHT:8px;
+}
+.jp-play-bar {
+	Z-INDEX: 1; POSITION: absolute;
+	WIDTH: 0px; BACKGROUND: url(img/Player.png) repeat-x 0px -114px; HEIGHT:8px;
+}
+.jp-play-bar span {
+	POSITION: absolute; WIDTH: 13px; BACKGROUND: url(img/player-current.png) no-repeat; HEIGHT: 14px; TOP: -3px; RIGHT: -12px;
+	_background:none; 
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/player-current.png");
+}
+
+.jp-play {
+	MARGIN: 0px 7px; WIDTH: 36px; HEIGHT: 38px
+}
+A.jp-pause {
+	MARGIN: 0px 7px; WIDTH: 36px; HEIGHT: 38px
+}
+.jp-play {
+	BACKGROUND: url(img/Player.png) no-repeat -30px -123px
+}
+.jp-play:hover {
+	BACKGROUND: url(img/Player.png) no-repeat -183px -123px
+}
+.jp-pause {
+	DISPLAY: none; BACKGROUND: url(img/Player.png) -68px -123px
+}
+.jp-pause:hover {
+	BACKGROUND: url(img/Player.png) no-repeat -221px -123px
+}
+A.jp-previous {
+	MARGIN-TOP: 6px; WIDTH: 26px; HEIGHT: 26px
+}
+A.jp-next {
+	MARGIN-TOP: 6px; WIDTH: 26px; HEIGHT: 26px
+}
+.jp-previous {
+	BACKGROUND: url(img/Player.png) no-repeat 0px -129px
+}
+.jp-previous:hover {
+	BACKGROUND: url(img/Player.png) no-repeat -152px -129px
+}
+.jp-next {
+	BACKGROUND: url(img/Player.png) no-repeat -105px -129px
+}
+.jp-next:hover {
+	BACKGROUND: url(img/Player.png) no-repeat -259px -129px
+}
+.pl-header {
+	BACKGROUND: url(img/Player.png) #f1f1f1 repeat-x 0px -42px; HEIGHT: 133px
+}
+.jp-interface {
+	POSITION: relative; WIDTH: 100%
+}
+.jp-interface .jp-controls {
+	WIDTH: 106px; HEIGHT: 38px; OVERFLOW: hidden
+}
+.jp-interface .jp-controls LI {
+	DISPLAY: inline; FLOAT: left
+}
+.jp-interface .jp-controls A {
+	TEXT-INDENT: -9999px; DISPLAY: block; OVERFLOW: hidden
+}
+.jp-interface .c6-volume {
+	MARGIN-TOP: 5px; WIDTH: 119px; HEIGHT: 14px; OVERFLOW: hidden
+}
+.jp-interface .c6-volume LI {
+	DISPLAY: inline; FLOAT: left
+}
+.jp-interface .c6-volume A {
+	TEXT-INDENT: -9999px; DISPLAY: block; OVERFLOW: hidden
+}
+.jp-mute {
+	WIDTH: 15px; HEIGHT: 12px
+}
+.jp-unmute {
+	WIDTH: 15px; HEIGHT: 12px
+}
+.jp-volume-max {
+	WIDTH: 15px; HEIGHT: 12px
+}
+.jp-mute {
+	BACKGROUND: url(img/Player.png) no-repeat -308px -122px
+}
+.jp-mute:hover {
+	BACKGROUND: url(img/Player.png) no-repeat -308px -135px
+}
+.jp-unmute {
+	DISPLAY: none; BACKGROUND: url(img/Player.png) no-repeat -323px -122px
+}
+.jp-unmute:hover {
+	BACKGROUND: url(img/Player.png) no-repeat -323px -135px
+}
+.jp-volume-max {
+	BACKGROUND: url(img/Player.png) no-repeat -338px -122px
+}
+.jp-volume-max:hover {
+	BACKGROUND: url(img/Player.png) no-repeat -338px -135px
+}
+
+.volume-bar-wrap {
+	height:20px;
+	MARGIN: 4px 8px 0px 0px
+}
+.jp-volume-bar {
+	WIDTH: 76px; BACKGROUND: url(img/Player.png) repeat-x 0px -96px; HEIGHT: 6px; CURSOR: pointer
+}
+.jp-volume-bar-value {
+	POSITION: relative;
+	WIDTH: 0px; BACKGROUND: url(img/Player.png) repeat-x 0px -114px; HEIGHT: 6px; CURSOR: pointer
+}
+.jp-volume-bar-value span {
+	POSITION: absolute; WIDTH: 13px; BACKGROUND: url(img/player-current.png) no-repeat; HEIGHT: 14px; TOP: -4px; RIGHT: -6px;
+	_background:none; 
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/player-current.png");
+}
+
+.playerMain-03 {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 3px;
+	height:36px;
+	overflow:hidden;
+}
+.playerMain-03 .fl {
+	WIDTH: 106px; FLOAT: left
+}
+.playerMain-03 .fr {
+	MARGIN: 5px 0px 0px; PADDING-LEFT: 60px; FLOAT: left; FONT-SIZE: 12px
+}
+.el {
+	padding:5px 0 0 10px;
+	color:#ff0000;
+}

@@ -1,0 +1,43 @@
+document.writeln("<div class=\"index_header1c top2\">");
+document.writeln("<UL class=allcate>");
+document.writeln("<li><a href=\"/\" target=\"_blank\">首頁</a></li>");
+document.writeln("<li><a href=\"/Art/1.html\" target=\"_blank\">华人男歌手</a></li>");
+document.writeln("<li><a href=\"/Art/2.html\" target=\"_blank\">华人女歌手</a></li>");
+document.writeln("<li><a href=\"/Art/3.html\" target=\"_blank\">华人乐队组合</a></li>");
+document.writeln("<li><a href=\"/Art/4.html\" target=\"_blank\">欧美歌手</a></li>");
+document.writeln("<li><a href=\"/Art/5.html\" target=\"_blank\">日韩歌手</a></li>");
+document.writeln("<li><a href=\"/Art/6.html\" target=\"_blank\">影视歌曲</a></li>");
+document.writeln("<li><a href=\"/Art/7.html\" target=\"_blank\">杂锦合辑</a></li>");
+document.writeln("<li><a href=\"/Art/8.html\" target=\"_blank\">动漫音乐</a></li>");
+document.writeln("<li><a href=\"/Art/9.html\" target=\"_blank\">摇滚舞曲</a></li>");
+document.writeln("");
+document.writeln("</UL>");
+document.writeln("<UL class=quicklink></UL>");
+document.writeln("</div>");
+document.writeln("<div class=\"index_header2c\">");
+document.writeln("<DIV class=left_border></DIV>");
+document.writeln("<DIV class=right_border></DIV>");
+document.writeln("<DIV class=X_N_A11 id=textlinks>");
+document.writeln("<ul>");
+document.writeln("<li><a href=\"/top/jdlg.htm\" target=\"_blank\">经典老歌</a></li>");
+document.writeln("<li><a href=\"/top/xygq.htm\" target=\"_blank\">校园歌曲</a></li>");
+document.writeln("<li><a href=\"/top/wlgq.htm\" target=\"_blank\">网络歌曲</a></li>");
+document.writeln("<li><a href=\"/top/qcyy.htm\" target=\"_blank\">汽车音乐</a></li>");
+document.writeln("<li><a href=\"/top/sggq.htm\" target=\"_blank\">伤感歌曲</a></li>");
+document.writeln("<li><a href=\"/top/ktvgq.htm\" target=\"_blank\">KTV歌曲</a></li>");
+document.writeln("<li><a href=\"/top/lzgq.htm\" target=\"_blank\">励志歌曲</a></li>");
+document.writeln("<li><a href=\"/top/gxyy.htm\" target=\"_blank\">搞笑音乐</a></li>");
+document.writeln("<li><a href=\"/top/sqgq.htm\" target=\"_blank\">抒情歌曲</a></li>");
+document.writeln("<li><a href=\"/top/fsyy.htm\" target=\"_blank\">发烧音乐</a></li>");
+document.writeln("<li><a href=\"/top/gcw.htm\" target=\"_blank\">广场舞</a></li>");
+document.writeln("<li><a href=\"/top/zgfgq.htm\" target=\"_blank\">中国风</a></li>");
+document.writeln("<li><a href=\"/top/fzlgq.htm\" target=\"_blank\">非主流</a></li>");
+document.writeln("<li></li>");
+document.writeln("<li><a href=\"/top/\" target=\"_blank\">音乐排行榜</a></li>");
+document.writeln("<li><a href=\"/top/top_7.html\" target=\"_blank\">好歌曲推荐</a></li>");
+
+document.writeln("</ul>");
+document.writeln("</div>");
+document.writeln("</div><div id=\"newTitle\"></div>");
+
+
